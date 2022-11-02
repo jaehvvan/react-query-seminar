@@ -1,6 +1,7 @@
+import { THEME } from '../../constant/theme';
+
 import HomeNavItem from '../../components/HomeNav/HomeNavItem';
 import HomeNavList from '../../components/HomeNav/HomeNavList';
-import { THEME } from '../../constant/theme';
 
 const Home = () => {
   return (

@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes as AppRoutes, Route } from 'react-router-dom';
+
 import Home from './pages/Home';
 import Queries from './pages/Queries';
 import Mutations from './pages/Mutations';
