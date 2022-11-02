@@ -1,0 +1,21 @@
+.HomeNavItem__link {
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: white;
+  text-align: center;
+  white-space: pre;
+}
+
+.HomeNavItem__link:hover {
+  opacity: 0.8;
+}

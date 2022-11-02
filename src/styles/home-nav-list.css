@@ -1,0 +1,4 @@
+.HomeNavList__ul {
+  display: flex;
+  gap: 16px;
+}

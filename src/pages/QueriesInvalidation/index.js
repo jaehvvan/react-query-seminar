@@ -1,9 +1,9 @@
-import Navigation from '../../components/Navigation';
+import BasicHeaderNav from '../../components/BasicHeaderNav';
 
 const QueriesInvalidation = () => {
   return (
     <section className="QueriesInvalidation">
-      <Navigation />
+      <BasicHeaderNav />
     </section>
   );
 };

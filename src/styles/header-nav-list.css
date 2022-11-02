@@ -1,0 +1,7 @@
+.HeaderNavList {
+  width: 100%;
+}
+
+.HeaderNavList__ul {
+  display: flex;
+}

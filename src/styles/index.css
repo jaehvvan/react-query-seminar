@@ -1,7 +1,18 @@
 @import './reset.css';
 @import './normalize.css';
+@import './spacing.css';
+
+/* pages */
 @import './home.css';
-@import './mutations.css';
-@import './navigation.css';
-@import './queries-invalidation.css';
 @import './queries.css';
+@import './mutations.css';
+@import './queries-invalidation.css';
+@import './prefetch.css';
+@import './dependent-queries.css';
+@import './optimistic-update.css';
+
+/* components */
+@import './home-nav-list.css';
+@import './home-nav-item.css';
+@import './header-nav-list.css';
+@import './header-nav-item.css';

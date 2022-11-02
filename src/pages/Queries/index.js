@@ -1,9 +1,9 @@
-import Navigation from '../../components/Navigation';
+import BasicHeaderNav from '../../components/BasicHeaderNav';
 
 const Queries = () => {
   return (
     <section className="Queries">
-      <Navigation />
+      <BasicHeaderNav />
     </section>
   );
 };

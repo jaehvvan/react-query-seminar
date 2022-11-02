@@ -1,0 +1,22 @@
+.HeaderNavItem {
+  flex: 1;
+}
+
+.HeaderNavItem__navLink {
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  white-space: pre;
+}
+
+.HeaderNavItem__navLink:hover {
+  opacity: 0.8;
+}
