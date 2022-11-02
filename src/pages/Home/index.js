@@ -5,7 +5,7 @@ import { THEME } from '../../constant/theme';
 const Home = () => {
   return (
     <main className="Home">
-      <h1 className="Home__h1 mb--24">🌱 기초 개념</h1>
+      <h1 className="Home__h1 mb--24">🌱 Core 개념</h1>
       <HomeNavList spacing={'mb--56'}>
         <HomeNavItem pathname={'/queries'} theme={THEME.yellow00} text={'Queries'} />
         <HomeNavItem pathname={'/mutations'} theme={THEME.green00} text={'Mutations'} />
