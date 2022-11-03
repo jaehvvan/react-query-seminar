@@ -12,13 +12,5 @@
   "jsxBracketSameLine": false,
   "htmlWhitespaceSensitivity": "css",
   "endOfLine": "auto",
-  "embeddedLanguageFormatting": "auto",
-  "overrides": [
-    {
-      "files": "*.json",
-      "options": {
-        "printWidth": 200
-      }
-    }
-  ]
+  "embeddedLanguageFormatting": "auto"
 }
