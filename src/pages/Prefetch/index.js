@@ -1,11 +1,5 @@
-import AdvancedHeaderNav from '../../components/AdvancedHeaderNav';
-
 const Prefetch = () => {
-  return (
-    <section className="Prefetch">
-      <AdvancedHeaderNav />
-    </section>
-  );
+  return <div className="Prefetch">Prefetch</div>;
 };
 
 export default Prefetch;

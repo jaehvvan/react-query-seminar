@@ -1,11 +1,5 @@
-import BasicHeaderNav from '../../components/BasicHeaderNav';
-
 const QueriesInvalidation = () => {
-  return (
-    <section className="QueriesInvalidation">
-      <BasicHeaderNav />
-    </section>
-  );
+  return <div className="QueriesInvalidation">QueriesInvalidation</div>;
 };
 
 export default QueriesInvalidation;

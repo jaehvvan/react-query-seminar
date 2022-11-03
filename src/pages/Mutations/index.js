@@ -1,11 +1,5 @@
-import BasicHeaderNav from '../../components/BasicHeaderNav';
-
 const Mutations = () => {
-  return (
-    <section className="Mutations">
-      <BasicHeaderNav />
-    </section>
-  );
+  return <div className="Mutations">Mutations</div>;
 };
 
 export default Mutations;

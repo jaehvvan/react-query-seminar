@@ -1,11 +1,5 @@
-import AdvancedHeaderNav from '../../components/AdvancedHeaderNav';
-
 const OptimisticUpdate = () => {
-  return (
-    <section className="OptimisticUpdate">
-      <AdvancedHeaderNav />
-    </section>
-  );
+  return <div className="OptimisticUpdate">OptimisticUpdate</div>;
 };
 
 export default OptimisticUpdate;

@@ -1,11 +1,5 @@
-import BasicHeaderNav from '../../components/BasicHeaderNav';
-
 const Queries = () => {
-  return (
-    <section className="Queries">
-      <BasicHeaderNav />
-    </section>
-  );
+  return <div className="Queries">Queries</div>;
 };
 
 export default Queries;

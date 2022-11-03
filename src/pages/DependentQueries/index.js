@@ -1,11 +1,5 @@
-import AdvancedHeaderNav from '../../components/AdvancedHeaderNav';
-
 const DependentQueries = () => {
-  return (
-    <section className="DependentQueries">
-      <AdvancedHeaderNav />
-    </section>
-  );
+  return <div className="DependentQueries">DependentQueries</div>;
 };
 
 export default DependentQueries;

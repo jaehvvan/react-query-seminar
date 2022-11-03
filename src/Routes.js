@@ -8,6 +8,9 @@ import Prefetch from './pages/Prefetch';
 import DependentQueries from './pages/DependentQueries';
 import OptimisticUpdate from './pages/OptimisticUpdate';
 
+import AdvancedLayout from './components/AdvancedLayout';
+import BasicLayout from './components/BasicLayout';
+
 const Routes = () => {
   return (
     <BrowserRouter>
@@ -15,14 +18,18 @@ const Routes = () => {
         <Route path="/" element={<Home />} />
 
         {/* Basic */}
-        <Route path="/queries" element={<Queries />} />
-        <Route path="/mutations" element={<Mutations />} />
-        <Route path="/queries-invalidation" element={<QueriesInvalidation />} />
+        <Route path="/basic" element={<BasicLayout />}>
+          <Route path="/basic/queries" element={<Queries />} />
+          <Route path="/basic/mutations" element={<Mutations />} />
+          <Route path="/basic/queries-invalidation" element={<QueriesInvalidation />} />
+        </Route>
 
         {/* Advanced */}
-        <Route path="/prefetch" element={<Prefetch />} />
-        <Route path="/dependent-queries" element={<DependentQueries />} />
-        <Route path="/optimistic-update" element={<OptimisticUpdate />} />
+        <Route path="/advanced" element={<AdvancedLayout />}>
+          <Route path="/advanced/prefetch" element={<Prefetch />} />
+          <Route path="/advanced/dependent-queries" element={<DependentQueries />} />
+          <Route path="/advanced/optimistic-update" element={<OptimisticUpdate />} />
+        </Route>
       </AppRoutes>
     </BrowserRouter>
   );
