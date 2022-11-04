@@ -1,4 +1,29 @@
 .Mutations {
-  width: 100%;
-  height: 100%;
+  padding: 10%;
+}
+
+.ComponentD {
+  min-height: 100px;
+}
+
+.ComponentE {
+  min-height: 100px;
+}
+
+.ComponentD,
+.ComponentE {
+  padding: 24px;
+  border-radius: 16px;
+  background-color: rgb(242, 243, 247);
+}
+
+.ComponentD__title,
+.ComponentE__title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.ComponentD__content,
+.ComponentE__content {
+  font-size: 20px;
 }
