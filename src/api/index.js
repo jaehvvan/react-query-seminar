@@ -1,17 +1,5 @@
 import DB from '../server/DB.json';
 
-export const getUserInfo = (userId) => {
-  return new Promise((resolve) => {
-    console.log('유저 정보 받아오는 중...');
-
-    setTimeout(() => {
-      const userInfo = DB.userTable.find((user) => user.id === userId);
-      console.log('유저 정보 받아오기 완료!');
-      resolve(userInfo);
-    }, 2000);
-  });
-};
-
 export const getAllTodos = () => {
   return new Promise((resolve) => {
     console.log('모든 할 일 받아오는 중...');
