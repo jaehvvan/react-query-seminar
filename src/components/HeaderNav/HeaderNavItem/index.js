@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-const HeaderNavItem = ({ pathname, theme = '', activatedTheme = '', text }) => {
+const HeaderNavItem = ({ pathname, theme = '', activatedTheme = '', text, onMouseEnter }) => {
   return (
     <li className="HeaderNavItem">
       <NavLink
@@ -11,6 +11,7 @@ const HeaderNavItem = ({ pathname, theme = '', activatedTheme = '', text }) => {
         })}
         to={pathname}
         end
+        onMouseEnter={onMouseEnter}
       >
         {text}
       </NavLink>
