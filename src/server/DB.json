@@ -5,11 +5,11 @@
     { "id": 2, "name": "셀리나" }
   ],
   "todoTable": [
-    { "id": 0, "userId": 0, "content": "화분에 물주기", "likeCount": 0 },
-    { "id": 1, "userId": 0, "content": "고양이 밥주기", "likeCount": 0 },
-    { "id": 2, "userId": 1, "content": "배포하기", "likeCount": 0 },
-    { "id": 3, "userId": 1, "content": "앱 개발하기", "likeCount": 0 },
-    { "id": 4, "userId": 2, "content": "세미나 준비하기", "likeCount": 0 },
-    { "id": 5, "userId": 2, "content": "문서화하기", "likeCount": 0 }
+    { "id": 0, "userId": 0, "content": "화분에 물주기" },
+    { "id": 1, "userId": 0, "content": "고양이 밥주기" },
+    { "id": 2, "userId": 1, "content": "배포하기" },
+    { "id": 3, "userId": 1, "content": "앱 개발하기" },
+    { "id": 4, "userId": 2, "content": "세미나 준비하기" },
+    { "id": 5, "userId": 2, "content": "문서화하기" }
   ]
 }

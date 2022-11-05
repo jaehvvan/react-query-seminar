@@ -47,18 +47,3 @@ export const postAddTodo = (todo) => {
     }, 2000);
   });
 };
-
-export const postLikeTodo = (todoId) => {
-  return new Promise((resolve) => {
-    console.log('좋아요 반영 중...');
-
-    setTimeout(() => {
-      const newTodoTable = DB.todoTable.map((todo) =>
-        todo.id === todoId ? { ...todo, likeCount: todo.likeCount + 1 } : todo,
-      );
-      DB.todoTable = newTodoTable;
-      console.log('좋아요 반영 완료!');
-      resolve();
-    }, 2000);
-  });
-};
